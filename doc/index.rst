@@ -22,7 +22,7 @@ GRETA Parsing Functions
 
 **Parse G_LIMMON Specification**
 
-..function:: readGLIMMON([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
+.. function:: readGLIMMON([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
 
     Read G_LIMMON.dec format file
 
@@ -44,7 +44,7 @@ GRETA Parsing Functions
 
 **Parse G_LIMMON Comment Section**
 
-..function:: parse_comments([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec', startline=603])
+.. function:: parse_comments([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec', startline=603])
 
     Parse the comment section near the top of a G_LIMMON.dec file.
 
@@ -68,7 +68,7 @@ GRETA Parsing Functions
 
 **Parse G_LIMMON Output File**
 
-..function:: process_limits_file([filename='limfile.txt'])
+.. function:: process_limits_file([filename='limfile.txt'])
 
     Process the limit file generated using a G_LIMMON.dec type of specification.
 
@@ -85,7 +85,7 @@ GRETA Parsing Functions
 
 **Parse GRETA Plot Specification**
 
-..function:: parsedecplot(decfile)
+.. function:: parsedecplot(decfile)
 
     Parse a GRETA dec plot file to extract plotting data.
 
