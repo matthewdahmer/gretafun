@@ -384,7 +384,7 @@ def process_limits_file(filename='limfile.txt'):
                                              + 'is observed before violation'})
 
             else:
-                print 'Skipped this line in the limits file due to missing value:\n{}\n'
+                print 'Skipped this line in the limits file due to missing value:\n{}\n'\
                       .format(line)
 
     return limlog
