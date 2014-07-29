@@ -22,9 +22,9 @@ GRETA Parsing Functions
 
 **Parse G_LIMMON Specification**
 
-.. function:: readGLIMMON([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
+def readGLIMMON([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
 
-    Read G_LIMMON.dec format file
+    """Read G_LIMMON.dec format file
 
     Reads in a G_LIMMON.dec or any other GRETA limit monitor specification file, such as
     G_LIMMON_SAFEMODE.dec, and returns a dictionary containing the contents of the file.
@@ -40,7 +40,7 @@ GRETA Parsing Functions
     Equations for mnemonics defined within the input file are not parsed, associated limit or
     expected state information for these mnemonics are parsed. In many cases these "derived"
     mnemonics are included in the Ska engineering archive.
-
+    """
 
 **Parse G_LIMMON Comment Section**
 
