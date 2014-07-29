@@ -53,12 +53,12 @@ parse_comments([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec', startline=603
     This relies upon the user editing the G_LIMMON.dec file for each revision to adhere to the
     following format:
 
-        09-25-2012  Firstname Lastname Message, can be one or more lines.
-        
-                       From                      To                      Description
-              MSID1    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
-              MSID2    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
-              MSID3    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
+        |09-25-2012  Firstname Lastname Message(can be one or more lines)
+        |
+        |               From                      To                      Description
+        |      MSID1    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
+        |      MSID2    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
+        |      MSID3    LIMIT_TYPE=  Orig_Number  LIMIT_TYPE= New_Number  Description (in one line)
 
     At this time, this function only processes limit changes, expected state changes are not
     processed. The ability to parse expected state changes may be added in the future.
