@@ -30,7 +30,6 @@ GRETA Parsing Functions
     G_LIMMON_SAFEMODE.dec, and returns a dictionary containing the contents of the file.
     
     :param filename: File name of GRETA limit monitoring specification file
-
     :returns: Dictionary containing the GRETA limit monitoring specifcation 
 
     Since the limit monitoring specification files generally do not explicitly list limits or
@@ -50,8 +49,7 @@ GRETA Parsing Functions
     Parse the comment section near the top of a G_LIMMON.dec file.
 
     :param filename: File name of GRETA limit monitoring specification file
-    :param startline: The line at which the comments began to follow a predictable form, similar
-                      to the format described below.
+    :param startline: The line at which the comments began to follow a predictable form, similar to the format described below.
 
     :returns: Dictionary containing parsed comments, keys are the times associated with each
               comment in the format returned by Chandra.Time.DateTime().sec.
@@ -80,7 +78,6 @@ GRETA Parsing Functions
     calculates relevant statistics. 
 
     :param filename: File name of G_LIMMON output file
-
     :returns: Dictionary of limit violations and relevant statistics.
 
     This function is not guaranteed to be able to process limit violations resulting from
@@ -95,7 +92,6 @@ GRETA Parsing Functions
     Parse a GRETA dec plot file to extract plotting data.
 
     :param decfile: GRETA plot specification file name
-
     :returns: dictionary of plot specification details
 
     This will not parse text display data (e.g. FMAIN.dec) or equations.
