@@ -5,7 +5,7 @@ import re
 import Ska.engarchive.fetch_eng as fetch_eng
 from Chandra.Time import DateTime
 
-def readGLIMMON(filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'):
+def read_glimmon(filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'):
     """ Read G_LIMMON.dec format file
 
     Reads in a G_LIMMON.dec or any other GRETA limit monitor specification file, such as
@@ -390,7 +390,7 @@ def process_limits_file(filename='limfile.txt'):
     return limlog
 
 
-def parsedecplot(decfile):
+def parse_decplot(decfile):
     """Parse a GRETA dec plot file to extract plotting data.
 
     :param decfile: GRETA plot specification file name
