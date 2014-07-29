@@ -22,7 +22,7 @@ GRETA Parsing Functions
 
 **Parse G_LIMMON Specification**
 
-.. function:: read_glimmon([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
+read_glimmon([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec'])
     Read G_LIMMON.dec format file
 
     Reads in a G_LIMMON.dec or any other GRETA limit monitor specification file, such as
@@ -39,11 +39,11 @@ GRETA Parsing Functions
     Equations for mnemonics defined within the input file are not parsed, associated limit or
     expected state information for these mnemonics are parsed. In many cases these "derived"
     mnemonics are included in the Ska engineering archive.
-Reference to :func:`read_glimmon`.
+
 
 **Parse G_LIMMON Comment Section**
 
-.. function:: parse_comments([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec', startline=603])
+parse_comments([filename='/home/greta/AXAFSHARE/dec/G_LIMMON.dec', startline=603])
     Parse the comment section near the top of a G_LIMMON.dec file.
 
     :param filename: File name of GRETA limit monitoring specification file.
@@ -66,7 +66,7 @@ Reference to :func:`read_glimmon`.
 
 **Parse G_LIMMON Output File**
 
-.. function:: process_limits_file([filename='limfile.txt'])
+process_limits_file([filename='limfile.txt'])
     Process the limit file generated using a G_LIMMON.dec type of specification.
 
     This processes the output of G_LIMMON or any other GRETA limit monitoring specification and
@@ -82,7 +82,7 @@ Reference to :func:`read_glimmon`.
 
 **Parse GRETA Plot Specification**
 
-.. function:: parse_decplot(decfile)
+parse_decplot(decfile)
     Parse a GRETA dec plot file to extract plotting data.
 
     :param decfile: GRETA plot specification file name
