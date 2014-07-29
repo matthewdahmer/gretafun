@@ -48,11 +48,9 @@ GRETA Parsing Functions
 
     Parse the comment section near the top of a G_LIMMON.dec file.
 
-    :param filename: File name of GRETA limit monitoring specification file
+    :param filename: File name of GRETA limit monitoring specification file.
     :param startline: The line at which the comments began to follow a predictable form, similar to the format described below.
-
-    :returns: Dictionary containing parsed comments, keys are the times associated with each
-              comment in the format returned by Chandra.Time.DateTime().sec.
+    :returns: Dictionary containing parsed comments, keys are the times associated with each comment in the format returned by Chandra.Time.DateTime().sec.
 
     This relies upon the user editing the G_LIMMON.dec file for each revision to adhere to the
     following format:
